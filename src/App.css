@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=New+Tegomin&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background: linear-gradient(#1e1974, #151155);
+    font-family: 'Poppins', sans-serif;
+    color: #ffffff;
+}
+
+.header{
+    padding: 12px;
+    text-align: center;
+    font-family: 'New Tegomin', serif;
+    font-size: 2rem;
+}
+
+button{
+
+    border: none;
+}
+
+.container{
+    padding: 22px 138px;
+}
+
+.question-container, .result-container{
+    padding: 44px 120px;
+    background-color: #242172;
+    display: grid;
+    place-items: center;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.options{
+    padding: 20px;
+}
+
+button{
+    margin: 15px;
+    width: 100%;
+    text-align: left;
+    /* background: none; */
+    padding: 8px 20px;
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+
+.result-container button{ 
+    text-align: center;
+}
+
+.btn-bg{
+    background-color: #267ddb;
+    color: #fff;
+}
